@@ -16,20 +16,23 @@
 
 ::selection { color: var(--color-almostblack); background: var(--color-pale); }
 
-html { width: 100vw; height: 100vh; }
-body { width: 100%; box-sizing: border-box; overflow-x: hidden; font-size: 16px; font-family: helvetica, sans-serif; background-color: var(--color-almostblack); margin: 0px; padding: 0px; transition: opacity 150ms; opacity: 1 !important; color: var(--color-pale) }
+html { min-height: 100%; }
+body { min-height: 100%; width: 100%; box-sizing: border-box; line-height: 1.6; overflow-x: hidden; font-size: 16px; font-family: helvetica, sans-serif; background-color: var(--color-almostblack); margin: 0px; padding: 0px; transition: opacity 150ms; opacity: 1 !important; color: var(--color-pale) }
+
 a { cursor: pointer; color: var(--color-pale); text-decoration: none; }
 a:hover { color: var(--color-accent); }
-header { display: block; box-sizing: border-box; position: relative; width: 100%; min-height: var(--logo-size); background-size: cover; background-position: 50%; center; background-repeat: no-repeat; padding: var(--panel-padding); }
+header { grid-area: header; box-sizing: border-box; position: relative; width: 100%; min-height: var(--logo-size); background-size: cover; background-position: 50%; center; background-repeat: no-repeat; padding: var(--panel-padding); }
 .logo { display: block; position: absolute; top: var(--panel-padding); left: var(--panel-padding); width: var(--logo-size); height: var(--logo-size); background-image: var(--svg-logo); background-size: contain; background-repeat: no-repeat; background-position-y: center; }
 
-nav  { padding: var(--panel-padding) 0 var(--panel-padding) var(--panel-padding); float: left; min-width: 300px;}
-main { padding: var(--panel-padding); float: left; max-width: 900px; }
+#wrap { display: grid; grid-template-columns: 100% minmax(900px, 100%); grid-template-areas: "header" "nav" "main" "footer"; }
+
+nav  { display: flex; overflow-x: auto; gap: 20px; padding: var(--panel-padding) 0 var(--panel-padding) var(--panel-padding); grid-area: nav; min-width: 300px;}
+main { padding: var(--panel-padding); box-sizing: border-box; grid-area: main; max-width: 900px; }
   main section { margin-bottom: var(--panel-padding); }
   main img, main video { width:100%; max-width: 900px; margin-bottom: 15px; user-select: none; }
 .date { color: var(--color-faded)}
-
-.topicblock { display:table; vertical-align: top; min-width: 200px; margin-bottom: 20px; -webkit-column-break-inside: avoid; page-break-inside: avoid; break-inside: avoid; }
+    
+.topicblock { display: block; float: none; min-width: 200px; margin-bottom: 20px; white-space: nowrap; -webkit-column-break-inside: avoid; page-break-inside: avoid; break-inside: avoid; }
 .topicblock .topichead { display: inline-block; font-weight: bold; text-transform: uppercase; margin-bottom: 10px; font-size: 24px; user-select: none; -moz-user-select: none; -webkit-user-select: none; }
 .topicblock .topic { display: block; margin-bottom: 5px; width:auto; }
 .topicblock a:after, h2 a:after { content: ""; }
@@ -94,7 +97,7 @@ map  { background-color: var(--color-code); color: var(--color-faded); display: 
 
 .offer-box input::placeholder { color: #888;}
 
-footer                  { width: 100%; box-sizing: border-box; margin-bottom: 60px;  line-height: 30px; padding: var(--panel-padding); clear: both; }
+footer                  { width: 100%; grid-area: footer; box-sizing: border-box; margin-bottom: 60px;  line-height: 30px; padding: var(--panel-padding); }
 footer a.icon           { width: 20px; height: 30px; margin: 0px 8px; background-size: contain; background-repeat: no-repeat; background-position-y: center; display: block; float: right; }
 footer a.icon.github    { background-image: url("../svg/github.svg"); }
 footer a.icon.twitter   { background-image: url("../svg/twitter.svg"); }
@@ -102,8 +105,11 @@ footer a.icon.youtube   { background-image: url("../svg/youtube.svg"); }
 footer a.icon.instagram { background-image: url("../svg/instagram.svg"); }
 footer a.icon.merveilles{ background-image: url("../svg/merveilles.svg");}
 
-@media only screen and (max-width: 1440px)
+@media (max-width: 768px)
 {
-  .topicblock { float:left;}
-  .offer-box  { margin: 0px auto 0px 0px; }
+    :root { --panel-padding: 20px; }
+    #wrap { display:block; }
+    nav,
+    main { width: 100%; max-width: none; }
+    header { height:40vh !important; min-height:220px; }
 }
