@@ -16,10 +16,11 @@
 
 ::selection { color: var(--color-almostblack); background: var(--color-pale); }
 
+html { width: 100vw; height: 100vh; }
 body { width: 100%; box-sizing: border-box; overflow-x: hidden; font-size: 16px; font-family: helvetica, sans-serif; background-color: var(--color-almostblack); margin: 0px; padding: 0px; transition: opacity 150ms; opacity: 1 !important; color: var(--color-pale) }
 a { cursor: pointer; color: var(--color-pale); text-decoration: none; }
 a:hover { color: var(--color-accent); }
-header { display: block; position: relative; width: 100%; min-height: var(--logo-size); background-size: cover; background-position: calc(50% - var(--panel-padding)) center; background-repeat: no-repeat; padding: var(--panel-padding); }
+header { display: block; box-sizing: border-box; position: relative; width: 100%; min-height: var(--logo-size); background-size: cover; background-position: 50%; center; background-repeat: no-repeat; padding: var(--panel-padding); }
 .logo { display: block; position: absolute; top: var(--panel-padding); left: var(--panel-padding); width: var(--logo-size); height: var(--logo-size); background-image: var(--svg-logo); background-size: contain; background-repeat: no-repeat; background-position-y: center; }
 
 nav  { padding: var(--panel-padding) 0 var(--panel-padding) var(--panel-padding); float: left; min-width: 300px;}
@@ -78,7 +79,7 @@ map  { background-color: var(--color-code); color: var(--color-faded); display: 
   map a:after { content: ""; color: var(--color-pale); }
   map a:hover:after { margin-right: 2px; content: " •"; transition: all 150ms; text-decoration: none; }
 
-.panorama { display: block; width: 100%; height: 600px; margin-bottom: 2em; border: none; -moz-border-radius: 15px; border-radius: 8px; -webkit-border-radius: 8px; overflow: hidden; }
+.panorama { display: block; width: 100%; height: 600px; margin-bottom: 2em; border: none; border-radius: 8px; -webkit-border-radius: 8px; overflow: hidden; }
 
 .offer-box { max-width: 900px; display: block; box-sizing: border-box; margin: 0px auto 0px 340px; padding: 20px; background: var(--color-green); border-radius: 8px; }
 
@@ -103,7 +104,6 @@ footer a.icon.merveilles{ background-image: url("../svg/merveilles.svg");}
 
 @media only screen and (max-width: 1440px)
 {
-  .topicblock { float: left; }
-  .newsletter { max-width: 180px; }
+  .topicblock { float:left;}
   .offer-box  { margin: 0px auto 0px 0px; }
 }
