@@ -1,0 +1,109 @@
+photo: IrieSchematic.webp
+---
+
+[TOC]
+
+## Heritage
+
+The name "Irie" is colloquial/slang in Jamaican for _good_, _allright_, _cool_, with a deeper meaning of feeling of content and at peace with oneself and one's state of being.
+
+Irie is a Tahitiana, a Weston Farmer's reimagining for John G. Hanna's classic Tahiti ketch.
+Irie was built in 1984, is cutter rigged, rolled steel construction (no chine) and is a 110% upscale of the original plans, incresing her to a 33'.
+
+```
+
+1893  RS1               - Colin Archer
+1935  ├── Tahiti        - John G. "Jack" Hanna
+1952  │   ├── Oceania   - Alan Mason
+1976  │   └── Tahitiana - Weston Farmer
+1938  ├── Ingrid 38     - William Atkin, Colin Archer
+1977  └── Westsail 32   - William Atkin, William Crealock, and Colin Archer
+
+```
+
+Hull constructed by Sinclair Melbourne & Co. in Lyttleton, a ship building and engineering company which began in 1927 and dissolved in 2000.
+
+![An old photo of Sinclair Melbourne Co. office, before it became a big ship building yard.](SinclairMelbourneCoOld.webp)
+
+![View of the bSingclair Medlbourne Co. Boat ramp, 22 June 1963](SinclairMelbourneCoOldWharf.webp)
+
+## Hull
+
+| Measurements    |       |
+| --------------- | ----- |
+| LWL             | 30'0" |
+| LOA             | 37'6" |
+| Beam	          | 11'4" |
+| Draft	          |  4'4" |
+| Displacement    | 24000 lbs |
+| Ballast         | 6000 lbs |
+| Capsize Ratio   | 1.56 |
+| Comfort Ratio   | 45.18 |
+
+| Steel Plate     |      |
+| --------------- | ---- |
+| Hull            | 1/4” |
+| Deck            | 1/8” |
+| Keel            | 1/2” |
+
+## Zinc  
+
+305x150x13 ZHC-10  
+4kg * 4  
+23lb/12kg
+
+## Drive
+
+Fuel 80L keel + 50L header
+Shaft 1,1/4"  
+Stern tube 2,1/4 (58mm)  
+Engine mount studs 16mm
+
+## Rig
+
+| **Mast**                      |          |
+| ----------------------------- | -------- |
+| Top of mast to upper spreader |	11'10.5” |
+| Top of mast to bottom         |	41'7”    |
+| Top spreader (mid) ???        |	28'2”    |
+| Bottom spreader               |	16'2”    |
+| Boom                          | 15'6”    |
+
+| **Wire**                      |          |
+| ----------------------------- | -------- |
+| Forestay	                    | 42'9”    |
+| Inner forestay                | 29'7”    |
+| Intermediate                  |	29'8.5”  |
+| Aft lower                     |	17'10.5” |
+| Forward lower                 |	17'8”    |
+| Bobstay (eye to eye)          |	4'8”     |
+| Jib sheet sheeve              |	1/2”     |
+
+## Sail
+
+| Sail          | Luff         | Leach         | Foot          | SQR FT |
+| ------------- | ------------ | ------------- | ------------- | ------ |
+| **MAIN**      | 36'1” (433”) | 37'10”(454”)  | 14'10” (178”) | 266.57 |
+| - Reef #1     | 33'1” (397”) | 34'8”	(416”) | 14' (168”)    | 230.51 |
+| - Reef #2     | 29'7” (355”) | 31'1”	(373”) | 12'10” (154”) | 188.86 |
+| - Reef #3     | 24'2” (290”) | 25'4” (304”)  | 10'10” (130”) | 130.02 |
+| <del>**GENOA**</del>     | <del>39' (468”)</del>   | <del>35'10” (430”)</del> | <del>21'8” (260”)</del>  | <del>383.85</del> |
+| **YANKEE**    | 38'7” (463”) | 26' 7” (319”) | 19'2” (230”)  | 233    |
+| **STORM JIB** | 18'6”	(222”) | 14'9” (177”)  | 9'5” (113”)   | 68.89  |
+| **STAYSAIL**  | 25'1”	(301”) | 22'9” (273”)  | 8'10” (106”)  | 100.09 |
+| **TRYSAIL**   | 14'10” (178”)| 20'3” (243”)  | 11”10”	(142”) | 86.82  |
+
+J distance = 184” (467.36cm)
+
+## Tackle
+
+- Rockna Vulcan 	55lb
+- Danforth	55lb
+- Fortress FX23	7kg
+- Spare Plow	45lb
+
+## Appliances
+
+Fridge 630L 310W 380D  
+Freezer 14L 24W 28D  
+Fresh Water Capacity 300L

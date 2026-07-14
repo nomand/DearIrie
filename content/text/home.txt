@@ -1,0 +1,30 @@
+photo: IrieHobsonvilleFogDawn.webp
+---
+
+Irie is a 33' cutter rigged, full keel custom built Tahitiana.
+She is 12 tonnes, made of steel, with a beautifully crafted teak interior. 
+Irie is a heavy displacement expedition style sailboat designed for high latitude sailing.
+The legend has it that it was built for a trip to Antarctica.
+
+```
+Irie is currently for sale and looking for a new owner.
+Located in a liveaboard boatyard in Whangarei, New Zealand.
+```
+
+- [Boat specs](specifications)
+- [Scope of work](refit)
+
+# Hayday
+
+![Irie Moored at Uquharts Bay](IrieMooredUquharts.webp)
+![Irie Dusk at Sea](IrieDuskAtSea.webp)
+![Irie in the fog](IrieInTheFog.webp)
+![View from midships towards companionway](IrieInteriorAft.webp)
+![View of galley](IrieGalley.webp)
+![View towards galley and companionway](IrieGalleyLookingAft.webp)
+![View Saloon](IrieSaloonPort.webp)
+![View Saloon](IrieSaloonStarboard.webp)
+![Irie view towards VBerth](IrieVBerth.webp)
+![Irie under SH18 Bridge](IrieMooredHobsonville.webp)
+
+To get a boat tour and view the current state of the boat, check out the [Refit](refit) page for photos and details.

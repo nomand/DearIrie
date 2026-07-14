@@ -1,0 +1,75 @@
+photo:IrieHaulout2023.webp
+---
+
+[TOC]
+
+## Deck
+
+### Cockpit
+
+!8(Irie360Cockpit.webp, autoLoad=true, yaw=183, pitch=-35, hfov=110)
+
+### Foredeck
+
+Bowsprit tube has rusted away underneath where it hovers above the deck (deck unaffected).
+Recommend fabricating a new bowsprit.
+
+!8(Irie360ForeDeck.webp, autoLoad=true, yaw=30, pitch=-40)
+
+### Port
+
+!8(Irie360Port.webp, autoLoad=true, yaw=30, pitch=-40)
+
+### Starboard
+
+!8(Irie360Starboard.webp, autoLoad=true, yaw=-200, pitch=-50)
+
+## Companionway
+
+!8(Irie360CompanionWay.webp, autoLoad=true, yaw=150, pitch=-20, hfov=120)
+
+## Midships
+
+!8(Irie360MidShips.webp, autoLoad=true, yaw=0, pitch=-10)
+
+## Tool Area
+
+What otherwise would be a kid berth, is a massive storage area.
+
+!8(Irie360PitBerth.webp, autoLoad=true, yaw=45, pitch=-32)
+
+## Head
+
+The floor basin drains to bilge and needs a sump pump plumbed.
+A Rule sump pump is on board and ready to install.
+
+!8(Irie360Head.webp, autoLoad=true, yaw=210, pitch=-35)
+
+## Vberth
+
+Vberth underwent a quality of life refit that includes:
+
+- 12v socket
+- Bed platform slats for mattress airflow
+- Custom organic latext matress by Innature
+- Organic latex dipped coconut fiber mattress underlay for airflow
+
+!8(Irie360VBerth.webp, autoLoad=true, yaw=60, pitch=5)
+
+## Engine
+
+Irie needs a new engine, driveshaft and associated fuel and exhaust plumbing.
+
+Engine access is phenomenal for a boat her size that makes it easy to look after.
+She previously had a 1998 Yanmar 3HMF 28hp inboard diesel.
+
+Lasdrop Gen 1 1/4" Shaft | 2 1/4" Stern Tube dripless shaft seal is on board and ready to install.
+
+!8(Irie360GalleyToEngineRoom.webp, autoLoad=true, yaw=180, pitch=-30)
+!8(Irie360EngineRoom.webp, autoLoad=true, yaw=130, pitch=-30)
+
+## Electrical
+
+Irie needs a partial rewire to create a tidy layout, managed by a classic BlueSea systems electical switchboard.
+
+Refrigiration unit needs to be diagnosed for leaks. The compressor unit is operational, with a spare unit on board.
