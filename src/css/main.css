@@ -82,7 +82,7 @@ map  { background-color: var(--color-code); color: var(--color-faded); display: 
   map a:after { content: ""; color: var(--color-pale); }
   map a:hover:after { margin-right: 2px; content: " •"; transition: all 150ms; text-decoration: none; }
 
-.panorama { display: block; width: 100%; height: 600px; margin-bottom: 2em; border: none; border-radius: 8px; -webkit-border-radius: 8px; overflow: hidden; }
+.panorama { display: block; width: 100%; height: 45vh; min-height: 240px; max-height: 600px; margin-bottom: 2em; border: none; border-radius: 8px; -webkit-border-radius: 8px; overflow: hidden; }
 
 .offer-box { max-width: 900px; display: block; box-sizing: border-box; margin: 0px auto 0px 340px; padding: 20px; background: var(--color-green); border-radius: 8px; }
 
