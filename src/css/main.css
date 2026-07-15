@@ -112,4 +112,5 @@ footer a.icon.merveilles{ background-image: url("../svg/merveilles.svg");}
     nav,
     main { width: 100%; max-width: none; }
     header { height:40vh !important; min-height:220px; }
+    .panorama { height: 30vh; }
 }
