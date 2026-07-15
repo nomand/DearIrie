@@ -14,6 +14,10 @@
   --panel-padding: 45px;
 }
 
+/* debug
+* { outline: 1px solid red; }
+*/
+
 ::selection { color: var(--color-almostblack); background: var(--color-pale); }
 
 html { min-height: 100%; }
@@ -26,10 +30,10 @@ header { grid-area: header; box-sizing: border-box; position: relative; width: 1
 
 #wrap { display: grid; grid-template-columns: minmax(900px, 100%); grid-template-areas: "header" "nav" "main" "footer"; }
 
-nav  { display: flex; overflow-x: auto; gap: 20px; padding: var(--panel-padding) 0 var(--panel-padding) var(--panel-padding); grid-area: nav; min-width: 300px;}
+nav  { display: flex; box-sizing: border-box; overflow-x: auto; gap: 20px; padding: var(--panel-padding) 0 var(--panel-padding) var(--panel-padding); grid-area: nav; min-width: 300px;}
 main { padding: var(--panel-padding); box-sizing: border-box; grid-area: main; max-width: 900px; }
   main section { margin-bottom: var(--panel-padding); }
-  main img, main video { width:100%; max-width: 900px; margin-bottom: 15px; user-select: none; }
+  main img, main video { width:100%; max-width: 900px; display: block; margin-bottom: 15px; user-select: none; }
 .date { color: var(--color-faded)}
     
 .topicblock { display: block; float: none; min-width: 200px; margin-bottom: 20px; white-space: nowrap; -webkit-column-break-inside: avoid; page-break-inside: avoid; break-inside: avoid; }
@@ -109,7 +113,6 @@ footer a.icon.merveilles{ background-image: url("../svg/merveilles.svg");}
 {
     :root { --panel-padding: 20px; }
     #wrap { display:block; }
-    nav,
     main { width: 100%; max-width: none; }
     header { height:40vh !important; min-height:220px; }
     .panorama { height: 30vh; }
