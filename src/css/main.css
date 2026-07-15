@@ -30,13 +30,16 @@ header { grid-area: header; box-sizing: border-box; position: relative; width: 1
 
 #wrap { display: grid; grid-template-columns: minmax(900px, 100%); grid-template-areas: "header" "nav" "main" "footer"; }
 
-nav  { display: flex; box-sizing: border-box; overflow-x: auto; gap: 20px; padding: var(--panel-padding) 0 var(--panel-padding) var(--panel-padding); grid-area: nav; min-width: 300px;}
-main { padding: var(--panel-padding); box-sizing: border-box; grid-area: main; max-width: 900px; }
+nav  { display: grid; box-sizing: border-box; overflow-x: auto; gap: 20px; padding: var(--panel-padding) var(--panel-padding) 0px var(--panel-padding); min-width: 300px; max-width: 900px; margin: 0px auto; grid-area: nav; }
+main { padding: var(--panel-padding); box-sizing: border-box; grid-area: main; max-width: 900px; margin: 0px auto; }
   main section { margin-bottom: var(--panel-padding); }
   main img, main video { width:100%; max-width: 900px; display: block; margin-bottom: 15px; user-select: none; }
 .date { color: var(--color-faded)}
-    
-.topicblock { display: block; float: none; min-width: 200px; margin-bottom: 20px; white-space: nowrap; -webkit-column-break-inside: avoid; page-break-inside: avoid; break-inside: avoid; }
+
+.site-nav { display: flex; max-width: 900px; }
+
+
+.topicblock { display: block; min-width: 200px; margin-bottom: 20px; white-space: nowrap; -webkit-column-break-inside: avoid; page-break-inside: avoid; break-inside: avoid; }
 .topicblock .topichead { display: inline-block; font-weight: bold; text-transform: uppercase; margin-bottom: 10px; font-size: 24px; user-select: none; -moz-user-select: none; -webkit-user-select: none; }
 .topicblock .topic { display: block; margin-bottom: 5px; width:auto; }
 .topicblock a:after, h2 a:after { content: ""; }
