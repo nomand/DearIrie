@@ -24,7 +24,7 @@ a:hover { color: var(--color-accent); }
 header { grid-area: header; box-sizing: border-box; position: relative; width: 100%; min-height: var(--logo-size); background-size: cover; background-position: 50%; center; background-repeat: no-repeat; padding: var(--panel-padding); }
 .logo { display: block; position: absolute; top: var(--panel-padding); left: var(--panel-padding); width: var(--logo-size); height: var(--logo-size); background-image: var(--svg-logo); background-size: contain; background-repeat: no-repeat; background-position-y: center; }
 
-#wrap { display: grid; grid-template-columns: 100% minmax(900px, 100%); grid-template-areas: "header" "nav" "main" "footer"; }
+#wrap { display: grid; grid-template-columns: minmax(900px, 100%); grid-template-areas: "header" "nav" "main" "footer"; }
 
 nav  { display: flex; overflow-x: auto; gap: 20px; padding: var(--panel-padding) 0 var(--panel-padding) var(--panel-padding); grid-area: nav; min-width: 300px;}
 main { padding: var(--panel-padding); box-sizing: border-box; grid-area: main; max-width: 900px; }
@@ -76,7 +76,7 @@ table { width: 100%; border-collapse: collapse; margin-bottom: 3em; }
   th { font-weight: bold; background-color: none; color: var(--color-accent) }
   td { vertical-align: top; }
 
-pre  { background-color: var(--color-code); border: none; padding: 10px; overflow-x:visible; margin-bottom: 2em; border-radius: 4px; }
+pre  { background-color: var(--color-code); border: none; padding: 10px; overflow-x:auto; margin-bottom: 2em; border-radius: 4px; }
 code { background-color: var(--color-code); padding: 0px; border-radius: 4px; font-family: monospace; white-space: pre; -webkit-overflow-scrolling: touch; -webkit-text-size-adjust: none; white-space: pre; }
 map  { background-color: var(--color-code); color: var(--color-faded); display: block; padding: 25px; line-height: 1.2em; border-radius: 4px; font-family: monospace; font-size: 1.1em; white-space: pre; -webkit-overflow-scrolling: touch; -webkit-text-size-adjust: none; overflow-x:initial; }
   map a:after { content: ""; color: var(--color-pale); }
