@@ -38,8 +38,7 @@ main { padding: var(--panel-padding); box-sizing: border-box; grid-area: main; m
 
 .site-nav { display: flex; max-width: 900px; }
 
-
-.topicblock { display: block; min-width: 200px; margin-bottom: 20px; white-space: nowrap; -webkit-column-break-inside: avoid; page-break-inside: avoid; break-inside: avoid; }
+.topicblock { display: block; min-width: 150px; margin-bottom: 20px; white-space: nowrap; -webkit-column-break-inside: avoid; page-break-inside: avoid; break-inside: avoid; }
 .topicblock .topichead { display: inline-block; font-weight: bold; text-transform: uppercase; margin-bottom: 10px; font-size: 24px; user-select: none; -moz-user-select: none; -webkit-user-select: none; }
 .topicblock .topic { display: block; margin-bottom: 5px; width:auto; }
 .topicblock a:after, h2 a:after { content: ""; }
